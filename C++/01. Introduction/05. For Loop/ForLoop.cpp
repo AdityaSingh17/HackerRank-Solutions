@@ -13,9 +13,12 @@ int main()
     cin >> b;
     for (int i = a; i <= b; i++)
     {
-        if (i <= 9) cout<<numtostr[i]<<"\n";
-        else if (i > 9 && i%2 == 0) cout<<"even\n";
-        else cout<<"odd\n";
+        if (i <= 9)
+            cout << numtostr[i] << "\n";
+        else if (i > 9 && i % 2 == 0)
+            cout << "even\n";
+        else
+            cout << "odd\n";
     }
     return 0;
 }
